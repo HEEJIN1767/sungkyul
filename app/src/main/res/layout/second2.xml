@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TabHost"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/library1"
+            android:layout_width="match_parent"
+            android:layout_height="400px"
+            android:scaleType="fitCenter"
+            android:src="@drawable/library1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/Text1"
+            android:textColor="@color/black"
+            android:text="학술정보관 시설 안내"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:background="#BFFFC000"
+            android:layout_gravity="center_horizontal" />
+
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1" >
+
+
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:background="#FFFFFF">
+
+            </TabWidget>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/floor1"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="130dp"
+                android:text="이용자 서비스 센터(문헌정보과)\n
+\n
+
+자동서고 자료\n
+대출/ 반납, 연체료 관리\n
+자동서고 이용 승인 및 관리 회원\n
+이용자 관리 및 이용증 발급\n
+졸업예정자 및 휴학생,복학자 관리\n
+1층 일반/노트북 열람실 관리"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/floor2"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="멀티미디어/전자정보실\n
+\n
+정보검색 / DVD, CD , 악보\n
+국회,국립 중앙 도서고나 자료 검색\n
+웨이브온 감상\n
+과제수행 PC\n
+그룹강사실\n
+취업정보 자료실\n
+\n
+*DVD 대출ㆍ반납(관외대출가능)\n
+DVD 외 관외대출 불가"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/floor3"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="제 1자료 열람실\n
+\n
+ 도서 대여\n
+ - 언어학 (400)\n
+ - 순수과학(500)\n
+ - 응용과학 (600)\n
+ - 예술 (700)\n
+ - 문학 (800)\n
+ - 역사 및 지리 (900)\n
+- 유아도서 자료\n
+\n
+우선정리서비스"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/floor4"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="제 3자료 열람실\n
+\n
+도서 대여\n
+ - 총류(000)\n
+ - 철학 (100)\n
+ - 종교학 (200)\n
+ - 사회과학 (300)\n
+ - 보고서 자료, 권장도서\n
+ -특별기증도서(모빌렉)\n
+ \n
+그룹 세미나룸\n
+희망도서 신청\n"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/floor5"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="연속 간행물 / 참고 열람실\n
+\n
+도서 자료 (대출 불가)\n
+ - 국내외 간행물\n
+ - 신문, 요람, 졸업앨범\n
+ - 참고자료, 학위논문\n
+ - 대학발간 연구논문\n
+ - 본교교수저작물, 지정도서\n
+ -제본간행물\n
+ \n
+고서실 이용 안내\n
+이용 교육\n
+전자저널 및 Web DB\n
+국회, 국립 중앙 도서관 자료 검색\n
+연구 열람실, 대학원 열람실\n"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/floor6"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="고서실\n
+                \n
+ - 고서자료(대출 불가)\n
+카페 열람실 With U\n"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal" />
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+</TabHost>

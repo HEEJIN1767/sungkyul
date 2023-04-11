@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/school" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30dp"
+            android:textSize="20dp"
+            android:textColor="#273168"
+            android:text="경기도 만악구에 위치한 4년제 사립대학\n교육부 대학기본역량진단 ‘자율개선대학’ 선정\n교육부 대학구조개혁평가 ‘우수대학’ 선정 "/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal" >
+        <ImageButton
+            android:id="@+id/calaner"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:background="#00ffffff"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/calander" />
+        <ImageButton
+            android:id="@+id/menu1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:background="#00ffffff"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/menu" />
+        <ImageButton
+            android:id="@+id/timetable"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:background="#00ffffff"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/timetable" />
+        <ImageButton
+            android:id="@+id/call"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:background="#00ffffff"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:src="@drawable/call" />
+        <ImageButton
+            android:id="@+id/notice"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom"
+            android:background="#00ffffff"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:src="@drawable/notice" />
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

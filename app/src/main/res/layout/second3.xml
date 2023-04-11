@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <ImageView
+        android:id="@+id/library1"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:scaleType="fitCenter"
+        android:src="@drawable/library1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/Text1"
+        android:textColor="@color/black"
+        android:text="정보"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="#BFFFC000"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Text2"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:text="이용안내 사항\n"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Text3"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="대출 권수 및 기간\n
+    -학부 재학생 기준 15책 10일\n
+연체 - 1책 1일 100원의 연체료 부과\n
+연기 - 5회 연기 가능(연체한 도서가\n
+있을 경우 도서 연기 불가능)\n
+예약 - 학술정보관에 소장중인 도서로 대출 중 일 때 예약가능\n"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Text4"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="운영시간\n"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Text5"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="학기 중(월~금) : 9:00 ~ 21:00\n
+방학 중(월~금) : 10:00 ~ 16:00\n
+일반/노트북열람실 : 24시간 운영"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+
+
+
+</LinearLayout>

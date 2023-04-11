@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project1">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo3"
+        android:label="성결 스팟"
+        android:roundIcon="@mipmap/ic_logo3_round"
+        android:supportsRtl="true"
+        android:logo="@mipmap/ic_logo3"
+        android:theme="@style/Theme.Project1">
+        <activity android:name=".mainSubActivity5"></activity>
+        <activity android:name=".mainSubActivity4" />
+        <activity android:name=".mainSubActivity2" />
+        <activity android:name=".mainSubActivity1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mainSubActivity3"
+            android:label="mainSub3" />
+        <activity android:name=".mainSubActivity6"
+            android:label="mainSub6" />
+        <activity
+            android:name=".SecondActivity1"
+            android:label="second1" />
+        <activity
+            android:name=".SecondActivity2"
+            android:label="second2" />
+        <activity
+            android:name=".SecondActivity3"
+            android:label="second3" />
+        <activity
+            android:name=".ThirdActivity1"
+            android:label="third1" />
+        <activity
+            android:name=".ThirdActivity2"
+            android:label="third2" />
+        <activity
+            android:name=".ThirdActivity3"
+            android:label="third3" />
+        <activity
+            android:name=".ThirdActivity4"
+            android:label="third4" />
+        <activity
+            android:name=".ThirdActivity5"
+            android:label="third5" />
+        <activity
+            android:name=".ThirdActivity6"
+            android:label="third6" />
+        <activity
+            android:name=".ThirdActivity7"
+            android:label="third7" />
+    </application>
+
+</manifest>

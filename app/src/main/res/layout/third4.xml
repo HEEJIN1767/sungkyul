@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+        <ImageView
+            android:id="@+id/library1"
+            android:layout_width="match_parent"
+            android:layout_height="400px"
+            android:scaleType="fitXY"
+            android:src="@drawable/res1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/Text1"
+            android:textColor="@color/black"
+            android:text="음식 메뉴"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:background="#ED7D31"
+            android:layout_gravity="center_horizontal" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/btn1"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/white"
+                android:drawableLeft="@drawable/fd31"
+                android:textSize="25dp"
+                android:drawablePadding="20dp"
+                android:text="소금구이 덮밥\n 3500원\n722kcal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:drawablePadding="20dp"
+                android:id="@+id/btn2"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/fd32"
+                android:text="소불고기잡채밥\n 4500원\n639kcal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn3"
+                android:drawablePadding="20dp"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/fd33"
+                android:text="제육덮밥\n 3800원\n787kcal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn4"
+                android:drawablePadding="20dp"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/fd34"
+                android:text="육회비빔밥\n 4500원\n442kcal" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/btn5"
+                android:drawablePadding="20dp"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:backgroundTint="@color/white"
+                android:padding="10dp"
+                android:drawableLeft="@drawable/fd35"
+                android:text="새우튀김알밥\n 4000원\n853kcal" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

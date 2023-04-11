@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:id="@+id/Text1"
+        android:textColor="@color/black"
+        android:text="전화번호"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="#E7E3E8"
+        />
+
+    <ImageButton
+        android:id="@+id/btnDial"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="4"
+        android:layout_gravity="right"
+        android:scaleType="fitXY"
+        android:src="@drawable/call"
+        android:background="#E7E3E8"
+        />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#4DE1E1E1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:text="\n
+기념관\n"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#4DE1E1E1"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="\n
+– 예술대학 (031-467-8015)\n
+- 공연음악예술학부 (031-467-8015)\n
+- 음악학부 (031-467-8283)\n
+- 신학대학 (031-467-8060)\n
+- 신학부 (031-467-8051)\n
+– 언어교육원 (031-467-8942)\n
+- 연극영화학부 (031-467-8912)\n
+– 뷰티디자인학과 (031-467-8908)\n
+- 교육학습지원센터 (031-467-8446)\n
+– 교목실 (031-467-8202)\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#4DE1E1E1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="\n
+성결관\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#4DE1E1E1"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="\n
+– 산업경영공학과 (031-467-8059)\n
+– 정보통신공학과 (031-467-8073)\n
+– 미디어소프트웨어학과 (031-467-8348)\n
+– 컴퓨터공학과 (031-467-8341,8053)\n
+– 공과대학 (031-467-8052)\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#4DE1E1E1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="\n
+신유관\n"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#4DE1E1E1"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="\n
+성결대학교회 (031-467-8330)\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#4DE1E1E1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:text="\n
+영암관\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#4DE1E1E1"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="\n
+– 중어중문학과 (031-467-8944)\n
+- 국어국문학과 (031-467-8946)\n
+- 영어영문학과 (031-467-8941)\n
+- 일어일문학과 (031-467-8943)\n
+- 동아시아물류학부 (031-467-8121)\n
+– 유아교육학과 (031467-8038)\n
+- 사범대학 (031-467-8911)\n
+–인문대학 (031-467-8095)\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#4DE1E1E1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:text="\n
+중생관\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#4DE1E1E1"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="\n
+– 파이데이아학부 (031-467-8120, 8029, 8025)\n
+- 글로벌경영기술교육연구센터 (031-467-8136)\n
+- 사회과학대학 (031-467-8057)\n
+- 도시디자인정보공학과 (031-467-8036)\n
+- 사회복지학과 (031-467-8036,7)\n
+- 사회복지대학원 (031-467-8070)\n
+- 행정학과 (031-437-8098)\n
+- 국제개발협력학과 (031-467-8049)\n
+- 경영학과 (031-467-8056)\n
+- 관광개발학과 (031-467-8156)\n
+- 도시디자인공학과\n "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#4DE1E1E1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:text="\n
+학생회관\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#4DE1E1E1"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="\n
+– 학생지원과 (031-467-8209, 8254)\n
+- 학생지원처 (031-467-8014)\n
+- 장애학생지원센터 (031-467-8377)\n
+- 성결대학보사 (031-467-8351)\n
+– 양성평등상담소 (031-467-8935)\n
+- 학생상담센터 (031-467-8935) \n
+– 교육방송국 (031-467-8532)\n
+– 체육교육과 (031-467-8290)\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#4DE1E1E1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:text="\n
+재림관\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#4DE1E1E1"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:text="\n
+– 교직지원센터 (031-467-8342)\n
+- 입학교류처 (031-467-8156)\n
+- 입학홍보과 (031-467-8288)\n
+- 학사관리과 (031-467-8380)\n
+- 소비자생활협동조합 (031-467-8465)\n
+- 교직지원센터 (031-467-8342)\n
+– 대학일자리센터 (031-467-8323)\n
+- 해외취업지원센터 (031-467-8392)\n
+- 파이데이아칼리지 (031-467-8232)\n
+- 시설관재과 (031-467-8119)\n
+- 정보기획과 (031-467-8225,8294)\n
+- 현장실습지원센터 (031-467-8418)\n
+– 국제교류과 (031-467-8044)\n
+- 교육혁신지원센터 (031-467-8453)\n
+- 공학교육혁신센터 (031-467-8243)\n
+- 사무처 (031-467-8100)\n
+- 기획예산과 (031-467-8966)\n
+- 재무회계과 (031-467-8223)\n
+- 총무과 (031-467-8219)\n
+- 교무과 (031-467-8248)\n
+– 평생교육원 (031-467-8074,8075)\n
+– 교육대학원 (031-467-8426)\n
+- 대학원교학과 (031-467-8080~3)\n
+- 사회복지대학원 (031-467-8070)\n
+- 프라임대학원 (031-467-8071)\n
+- 신학대학원 (031-467-8069)\n
+– 창업교육센터 (031-467-8452)\n
+- 창업아이디어공작소 (031-467-8143)\n
+- SKUniverCity 창업지원단 (031-467-8959)\n
+- SKUniverCity Bi 센터 (031-467-8452)\n
+- SKU창의문화공작소 (031-467-8466)\n
+- 지역사회협력단 (031-467-8436)\n
+- 지역사회지속가능발전지원센터 (031-467-8436)\n
+- 일자리사업단 (031-467-8419)\n
+– 총장실 (031-467-8001)\n
+- 비서실 (031-467-8005)\n
+- 법인사무국 (031-467-8003)\n
+- 기획처 (031-467-8156)\n
+– 미디어센터 (031-467-8998)\n
+– 다문화평화연구소 (031-467-8954)\n"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

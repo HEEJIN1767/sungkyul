@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/logo2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="학교 시설 안내"
+            android:background="#4DE6E6E6"
+            android:textSize="25dp"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_margin="10dp" />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="학술 정보관"
+            android:background="#4DE6E6E6"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="학교 식당"
+            android:background="#4DE6E6E6"
+            android:textSize="25dp"
+            android:layout_margin="10dp"
+            android:textStyle="normal"
+            android:textColor="@color/black"
+            android:gravity="center" />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
